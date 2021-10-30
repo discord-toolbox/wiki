@@ -45,9 +45,21 @@ const config = {
                 items: [
                     {
                         type: 'doc',
-                        docId: 'intro',
+                        docId: 'tutorials/intro',
                         position: 'left',
-                        label: 'Tutorial',
+                        label: 'Tutorials',
+                    },
+                    {
+                        type: 'doc',
+                        docId: 'tools/intro',
+                        position: 'left',
+                        label: 'Tools',
+                    },
+                    {
+                        type: 'doc',
+                        docId: 'resources/intro',
+                        position: 'left',
+                        label: 'Resources',
                     },
                     {
                         href: 'https://github.com/discord-toolbox/wiki',
