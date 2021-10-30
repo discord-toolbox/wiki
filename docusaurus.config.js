@@ -9,12 +9,12 @@ const config = {
     title: 'Discord Toolbox',
     tagline: 'Tools for all the fellow Discord power users and nerds out there',
     url: 'https://distools.app',
-    baseUrl: '/docs/',
+    baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'discord-toolbox',
-    projectName: 'documentation',
+    projectName: 'wiki',
 
     presets: [
         [
@@ -23,7 +23,7 @@ const config = {
             ({
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    editUrl: 'https://github.com/discord-toolbox/documentation/edit/main/website/',
+                    editUrl: 'https://github.com/discord-toolbox/wiki/edit/main/',
                     routeBasePath: '/'
                 },
                 theme: {
@@ -50,7 +50,7 @@ const config = {
                         label: 'Tutorial',
                     },
                     {
-                        href: 'https://github.com/discord-toolbox/documentation',
+                        href: 'https://github.com/discord-toolbox/wiki',
                         label: 'GitHub',
                         position: 'right',
                     },
