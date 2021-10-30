@@ -62,6 +62,11 @@ const config = {
                         label: 'Resources',
                     },
                     {
+                        href: 'https://distools.app',
+                        label: 'Website',
+                        position: 'right',
+                    },
+                    {
                         href: 'https://github.com/discord-toolbox/wiki',
                         label: 'GitHub',
                         position: 'right',
